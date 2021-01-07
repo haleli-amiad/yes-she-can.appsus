@@ -1,0 +1,21 @@
+.email-app {
+    padding-top: 2rem;
+}
+
+.email-app-container {
+    margin-top: 10px;
+}
+
+.email-list-container {
+    justify-content: center;
+    background-color: rgb(243, 243, 243);
+    width: 100%;
+    margin-left: 50px;
+    border-radius: 9px;
+    height: 70vh;
+    overflow: auto;
+}
+
+.checkbox {
+    position: fixed;
+}

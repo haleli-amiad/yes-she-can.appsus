@@ -1,0 +1,138 @@
+/* fonts */
+
+@import 'general/fonts.css';
+/* general */
+
+@import 'general/nav.css';
+@import 'general/homepage.css';
+@import 'general/footer.css';
+@import 'general/user-msg.css';
+@import 'general/about.css';
+/* homePage cmps */
+
+/* SheMail cmps */
+
+@import 'apps/email/email-app.cmp.css';
+@import 'apps/email/email-compose.cmp.css';
+@import 'apps/email/email-details.cmp.css';
+@import 'apps/email/email-preview.cmp.css';
+@import 'apps/email/email-side-nav.cmp.css';
+@import 'apps/email/email-filter.cmp.css';
+/* SheKeep cmps */
+
+@import 'apps/keep/color-picker.cmp.css';
+@import 'apps/keep/keep-app.cmp.css';
+@import 'apps/keep/notes-preview.cmp.css';
+@import 'apps/keep/add-note.cmp.css';
+@import 'apps/keep/edit-note.cmp.css';
+/* SheReads cmp */
+
+@import 'apps/books/book-details.cmp.css';
+@import 'apps/books/book-list.cmp.css';
+@import 'apps/books/book-search-add.cmp.css';
+/* general, temporary, fonts are not decided yet but will be nicer to watch */
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Roboto;
+    margin: 0 auto;
+    padding: 0;
+    color: rgb(45, 45, 45);
+    letter-spacing: 1px;
+}
+
+/* general helpers */
+
+.flex {
+    display: flex;
+}
+
+.flex-centered {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.wrap {
+    flex-wrap: wrap;
+}
+
+.flex-column {
+    display: flex;
+    flex-direction: column;
+}
+
+.pointer {
+    cursor: pointer;
+}
+
+.button-reset {
+    background-color: transparent;
+    border: none;
+    outline: none;
+    display: inline;
+    padding: 0;
+}
+
+.icon {
+    font-size: 1.3rem;
+    color: rgb(70, 70, 70);
+    cursor: pointer;
+}
+
+/* restarters */
+
+li {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+ul {
+    padding: 0;
+}
+
+input {
+    font-family: Roboto;
+    width: 15rem;
+    border: 1px solid rgb(164, 164, 164);
+    padding: 0.2rem;
+}
+
+@media screen and (min-width: 400px) {
+    .container {
+        width: 100vw;
+        margin: 0 auto;
+    }
+}
+
+@media screen and (min-width: 850px) {
+    .container {
+        max-width: 800px;
+        margin: 0 auto;
+    }
+}
+
+@media screen and (min-width: 940px) {
+    .container {
+        max-width: 900px;
+    }
+}
+
+@media screen and (min-width: 1100px) {
+    .container {
+        max-width: 1060px;
+    }
+}
+
+@media screen and (min-width: 1300px) {
+    .container {
+        max-width: 1180px;
+    }
+}
